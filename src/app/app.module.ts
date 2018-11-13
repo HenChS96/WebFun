@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 
 import {SliderModule} from 'primeng/slider';
 
+import {RadioButtonModule} from 'primeng/radiobutton';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -14,7 +16,8 @@ import {SliderModule} from 'primeng/slider';
   imports: [
     BrowserModule,
     SliderModule,
-    FormsModule
+    FormsModule,
+    RadioButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

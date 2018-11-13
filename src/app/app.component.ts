@@ -7,7 +7,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  val: number;
+  boo = false;
+
+  val: string;
 
   title = 'The FUNNY but SAD website';
+
+  reveal(){
+    
+    if(this.val == '1'){
+      console.log('You choose none because that are the feelings that she feels for you.... NONE');
+    }else if (this.val == '2'){
+      console.log("You're fine, like she's without you...");
+    }else{
+      console.log("You know you're fuck BRUUH....");
+    }
+
+  }
+
 }
